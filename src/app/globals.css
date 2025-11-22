@@ -1,0 +1,27 @@
+/* Ajustes de los botones del carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(24%) sepia(100%) saturate(7470%) hue-rotate(352deg) brightness(93%) contrast(96%);
+}
+
+/* hover más oscuro */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  filter: invert(24%) sepia(100%) saturate(7470%) hue-rotate(352deg) brightness(70%) contrast(96%);
+}
+
+/* Indicadores (puntitos inferiores) rojos */
+.carousel-indicators [data-bs-target] {
+  background-color: #c1121f;
+}
+.carousel-indicators .active {
+  background-color: #a50f1a;
+}
+
+footer a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+footer a:hover {
+  color: #a50f1a !important;
+  transform: scale(1.1);
+}
