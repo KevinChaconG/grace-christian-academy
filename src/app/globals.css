@@ -1,3 +1,16 @@
+body {
+  background: #f7f7f7 url("https://www.toptal.com/designers/subtlepatterns/uploads/dust_scratches.png");
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* --- CAROUSEL --- /*
+
 /* Ajustes de los botones del carousel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -25,3 +38,162 @@ footer a:hover {
   color: #a50f1a !important;
   transform: scale(1.1);
 }
+
+/*--- MOBILE SWAP ---*/ 
+
+@media (max-width: 768px) {
+  .mob-row {
+    flex-direction: column !important;   
+    row-gap: 1.5rem;                     
+  }
+
+  .mob-row > [class*="col-"] {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .mob-row > .mob-order-1 { order: 1 !important; }
+  .mob-row > .mob-order-2 { order: 2 !important; }
+  .mob-row > .mob-order-3 { order: 3 !important; }
+}
+
+
+/* --- Oferta Academica Cards --- */
+
+.oferta-academica {
+  max-width: 100%;
+}
+
+.titulo-oferta {
+  letter-spacing: 0.03em;
+}
+
+.subtitulo-oferta {
+  font-size: 1rem;
+}
+
+/* Card base */
+.nivel-card {
+  border-radius: 1rem;
+  border: 1px solid #f0f0f0;
+  border-left: 6px solid #dc3545;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-left-color 0.2s ease;
+}
+
+.nivel-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border-left-color: #b21f2d;
+}
+
+/* Texto principal del nivel */
+.texto-nivel {
+  font-size: 0.98rem;
+  margin-bottom: 1rem;
+}
+
+/* Secciones internas de cada card */
+.nivel-seccion {
+  margin-bottom: 0.85rem;
+}
+
+.titulo-seccion {
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #343a40;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.nivel-seccion ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.nivel-seccion li {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Ajustes responsivos ligeros */
+@media (max-width: 576px) {
+  .texto-nivel {
+    font-size: 0.95rem;
+  }
+
+  .titulo-seccion {
+    font-size: 0.88rem;
+  }
+
+  .nivel-seccion li {
+    font-size: 0.88rem;
+  }
+}
+
+.testimonial-img-wrapper {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.instalaciones-img {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.instalaciones-img:hover {
+  transform: scale(1.03);
+}
+
+.modal-close-floating {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: none;
+  background-color: #dc3545; /* rojo tipo Bootstrap danger */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.modal-close-floating:hover {
+  background-color: #b21f2d;
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+.modal-close-floating i {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+
+
+

@@ -16,7 +16,6 @@ export default function NavBar() {
           />
         </Link>
 
-        {/* Botón hamburguesa (responsive) */}
         <button
           className="navbar-toggler"
           type="button"
@@ -59,22 +58,16 @@ export default function NavBar() {
                     Calendario Escolar
                   </a>
                 </li>
-                <li>
-                  <a className="dropdown-item text-danger" href="/actividades-extracurriculares">
-                    Actividades Extracurriculares
-                  </a>
-                </li>
               </ul>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link text-danger fw-semibold" href="/eventos">
-                Eventos
-              </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-danger fw-semibold" href="/testimonios">
                 Testimonios
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-danger fw-semibold" href="/eventos">
+                Eventos
               </Link>
             </li>
             <li className="nav-item">
