@@ -29,7 +29,7 @@ const slides = [
 
 export default function Home() {
 
-  
+
 
   return (
 
@@ -100,21 +100,24 @@ export default function Home() {
 
       {/* Descripción Grace Christian Academy */}
 
-<div className="container my-5">
-  <div className="row justify-content-center text-center">
-    <div className="col-md-10 col-lg-8">
+{/* Descripción Grace Christian Academy */}
+<section className="text-white py-5" id="descripcion">
+  <div className="container">
+    <div className="row justify-content-center text-center">
+      <div className="col-md-10 col-lg-8">
 
-      <h2 className="fw-bold mb-3">¿Quiénes somos?</h2>
+        <h2 className="fw-bold mb-4">¿Quiénes somos?</h2>
 
-      <p className="fs-5">
-        "Somos una institución educativa de altos estándares, con enseñanza bilingüe y valores.
-        Fundada en el año 2000. Nuestro programa académico es avalado y respaldado por instituciones
-        educativas norteamericanas."
-      </p>
+        <p className="fs-5 mb-0">
+          Somos una institución educativa de altos estándares, con enseñanza bilingüe
+          y formación basada en valores cristianos. Fundada en el año 2000, nuestro programa
+          académico es avalado y respaldado por instituciones educativas norteamaricanas.
+        </p>
 
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 
       {/* Elección Grace Christian Academy */}
@@ -137,7 +140,7 @@ export default function Home() {
             <p className="fs-5">¡Crecen en conocimiento, fe y valores!</p>
             <div>
               <a
-                href="https://wa.me/50431729888?text=Hola,%20me%20gustaría%20obtener%20información%20sobre%20la%20prematrícula."
+                href="https://wa.me/50431726888?text=Hola,%20me%20gustaría%20obtener%20información%20sobre%20la%20prematrícula."
                 target="_blank"
                 className="btn btn-success btn-lg mt-3 mb-4 mb-md-0">
                 <i className="bi bi-whatsapp mb-4"></i> WhatsApp</a>
@@ -148,7 +151,7 @@ export default function Home() {
             <img
               src="/assets/matricula.jpg"
               alt="Prematrícula 2026"
-              className="img-fluid rounded shadow"/>
+              className="img-fluid rounded shadow" />
           </div>
         </div>
       </div>
@@ -206,85 +209,94 @@ export default function Home() {
       </div>
 
       {/* MODAL + CAROUSEL */}
-<div
-  className="modal fade"
-  id="modalGaleria"
-  tabIndex={-1}
-  aria-hidden="true"
->
-  <div className="modal-dialog modal-dialog-centered modal-xl">
-    <div className="modal-content bg-dark position-relative">
-
-      {/* Botón flotante rojo */}
-      <button
-        type="button"
-        className="modal-close-floating"
-        data-bs-dismiss="modal"
-        aria-label="Close"
-      >
-        <i className="bi bi-x-lg"></i>
-      </button>
-
-      {/* Carousel */}
       <div
-        id="carouselGaleria"
-        className="carousel slide"
-        data-bs-ride="false"
+        className="modal fade"
+        id="modalGaleria"
+        tabIndex={-1}
+        aria-hidden="true"
       >
-        <div className="carousel-inner">
+        <div className="modal-dialog modal-dialog-centered modal-xl">
+          <div className="modal-content bg-dark position-relative">
 
-          <div className="carousel-item active">
-            <img src="/assets/instalaciones1.webp" className="d-block w-100" />
+            {/* Botón flotante rojo */}
+            <button
+              type="button"
+              className="modal-close-floating"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i className="bi bi-x-lg"></i>
+            </button>
+
+            {/* Carousel */}
+            <div
+              id="carouselGaleria"
+              className="carousel slide"
+              data-bs-ride="false"
+            >
+              <div className="carousel-inner">
+
+                <div className="carousel-item active">
+                  <img src="/assets/instalaciones1.webp" className="d-block w-100" />
+                </div>
+
+                <div className="carousel-item">
+                  <img src="/assets/instalaciones2.webp" className="d-block w-100" />
+                </div>
+
+                <div className="carousel-item">
+                  <img src="/assets/instalaciones1.webp" className="d-block w-100" />
+                </div>
+
+                <div className="carousel-item">
+                  <img src="/assets/instalaciones2.webp" className="d-block w-100" />
+                </div>
+
+              </div>
+
+              {/* Controles */}
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselGaleria"
+                data-bs-slide="prev"
+              >
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselGaleria"
+                data-bs-slide="next"
+              >
+                <span className="carousel-control-next-icon"></span>
+              </button>
+
+            </div>
           </div>
-
-          <div className="carousel-item">
-            <img src="/assets/instalaciones2.webp" className="d-block w-100" />
-          </div>
-
-          <div className="carousel-item">
-            <img src="/assets/instalaciones1.webp" className="d-block w-100" />
-          </div>
-
-          <div className="carousel-item">
-            <img src="/assets/instalaciones2.webp" className="d-block w-100" />
-          </div>
-
         </div>
-
-        {/* Controles */}
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselGaleria"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon"></span>
-        </button>
-
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselGaleria"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon"></span>
-        </button>
-
       </div>
-    </div>
-  </div>
-</div>
 
-       {/* Testimonios */}
+      {/* Testimonios */}
 
       <div className="container">
-        <h2 className="fw-bold">¿Que opinan de nosotros?</h2>
-        <Testimonios1></Testimonios1>
-        <div className="mb-4">
-          <a
-            href="/testimonios"
-            className="btn btn-danger btn-lg">Ver mas Testimonios
-          </a>
+        <div className="row">
+          <div className="col-12">
+
+            <h2 className="fw-bold mb-4">¿Qué opinan de nosotros?</h2>
+
+            <Testimonios1 />
+
+            <div className="mb-4">
+              <a
+                href="/testimonios"
+                className="btn btn-danger btn-lg" id="testimonio-button"
+              >
+                Ver más Testimonios
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

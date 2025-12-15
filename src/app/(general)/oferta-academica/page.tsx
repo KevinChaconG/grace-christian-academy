@@ -203,7 +203,7 @@ export default function Page() {
       </div>
     </div>
 
-    {/* Bachillerato Ciencias y Letras */}
+    {/* Bachillerato Ciencias y Humanidades */}
     <div className="col-md-6 mb-4">
       <div className="card shadow h-100 nivel-card">
         <div className="card-body fs-6 fs-md-5">

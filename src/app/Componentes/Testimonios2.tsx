@@ -1,6 +1,6 @@
 export default function Testimonios2() {
     return (
-        <div className="container my-5">
+        <div className="container my-3">
             <div className="row g-4 align-items-stretch">
 
                 {/* CARD 1 */}

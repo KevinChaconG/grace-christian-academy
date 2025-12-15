@@ -53,11 +53,6 @@ export default function NavBar() {
                     Oferta Académica 2026
                   </a>
                 </li>
-                <li>
-                  <a className="dropdown-item text-danger" href="/calendario-escolar">
-                    Calendario Escolar
-                  </a>
-                </li>
               </ul>
             </li>
             <li className="nav-item">

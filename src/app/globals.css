@@ -84,12 +84,6 @@ footer a:hover {
     border-left-color 0.2s ease;
 }
 
-.nivel-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  border-left-color: #b21f2d;
-}
-
 /* Texto principal del nivel */
 .texto-nivel {
   font-size: 0.98rem;
@@ -194,6 +188,6 @@ footer a:hover {
   line-height: 1;
 }
 
-
-
-
+#descripcion{
+  background-color: #A31102;
+}
