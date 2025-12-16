@@ -20,7 +20,7 @@ const slides = [
     text: "Enseñanza bilingüe con enfoque en liderazgo y servicio",
   },
   {
-    src: "/assets/h4.jpg",
+    src: "/assets/h4.jpeg",
     title: "Ambiente Seguro y Amoroso",
     text: "Ambientes seguros, alegres y llenos de amor",
   },
@@ -29,12 +29,9 @@ const slides = [
 
 export default function Home() {
 
-
-
   return (
 
     <div>
-
       <div
         id="heroCarousel"
         className="carousel slide"
@@ -98,8 +95,6 @@ export default function Home() {
 
       <br></br>
 
-      {/* Descripción Grace Christian Academy */}
-
 {/* Descripción Grace Christian Academy */}
 <section className="text-white py-5" id="descripcion">
   <div className="container">
@@ -121,7 +116,6 @@ export default function Home() {
 
 
       {/* Elección Grace Christian Academy */}
-
       <div className="container my-5">
         <div className="row align-items-center">
 
@@ -159,7 +153,6 @@ export default function Home() {
       <br></br>
 
       {/* Instalaciones */}
-
       <div className="container mb-5">
         <h2 className="fw-bold mb-4">Nuestras Instalaciones</h2>
 
