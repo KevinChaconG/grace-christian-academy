@@ -43,48 +43,51 @@ export default function Page() {
                 <h3 className="text-danger mb-3">Preescolar</h3>
 
                 <p className="texto-nivel">
-                  El primer acercamiento al aprendizaje en un ambiente seguro, lleno de cariño, juego y exploración.
+                  En Preescolar brindamos el primer acercamiento al aprendizaje formal en un entorno seguro, afectivo y estructurado, 
+                  donde los niños desarrollan habilidades fundamentales a través del juego guiado, la exploración y rutinas pedagógicas intencionales.
                 </p>
 
                 <div className="nivel-seccion">
-                  <h5 className="titulo-seccion">Habilidades desarrolladas</h5>
+                  <h5 className="titulo-seccion">Competencias desarrolladas</h5>
                   <ul>
-                    <li>Desarrollo cognitivo y motriz temprano.</li>
-                    <li>Habilidades sociales y de convivencia.</li>
-                    <li>Estimulación de la curiosidad y la creatividad.</li>
+                    <li>Desarrollo cognitivo, motriz y socioemocional acorde a la edad.</li>
+                    <li>Fortalecimiento de la atención, memoria y seguimiento de instrucciones.</li>
+                    <li>Desarrollo de la autonomía, confianza y hábitos escolares.</li>
+                    <li>Interacción social positiva y normas de convivencia.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
                   <h5 className="titulo-seccion">Áreas de aprendizaje</h5>
                   <ul>
-                    <li>Reconocimiento de colores, formas y números.</li>
-                    <li>Lenguaje oral y prelectura.</li>
-                    <li>Juego guiado y actividades sensoriales.</li>
+                    <li>Reconocimiento y clasificación de colores, formas, números y secuencias.</li>
+                    <li>Lenguaje oral, vocabulario y prelectura.</li>
+                    <li>Juego estructurado y actividades sensoriales con propósito educativo.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
                   <h5 className="titulo-seccion">Inglés</h5>
                   <ul>
-                    <li>Vocabulario básico a través de canciones y rutinas.</li>
-                    <li>Entendimiento de instrucciones simples en inglés.</li>
+                    <li>Introducción al idioma mediante rutinas diarias, canciones y juegos.</li>
+                    <li>Comprensión y ejecución de instrucciones básicas en inglés.</li>
+                    <li>Vocabulario inicial relacionado con su entorno.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
-                  <h5 className="titulo-seccion">Valores cristianos</h5>
+                  <h5 className="titulo-seccion">Formación en valores cristianos</h5>
                   <ul>
-                    <li>Oraciones sencillas y enseñanzas bíblicas básicas.</li>
-                    <li>Respeto, obediencia y gratitud.</li>
+                    <li>Oraciones sencillas y relatos bíblicos adaptados a la edad.</li>
+                    <li>Práctica de valores como respeto, obediencia, gratitud y amor al prójimo.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
-                  <h5 className="titulo-seccion">Actividades especiales</h5>
+                  <h5 className="titulo-seccion">Actividades complementarias</h5>
                   <ul>
-                    <li>Tiempo de cuento y música.</li>
-                    <li>Dinámicas de juego al aire libre.</li>
+                    <li>Cuentos, música y expresión corporal.</li>
+                    <li>Juegos al aire libre que fortalecen la motricidad y el trabajo en equipo.</li>
                   </ul>
                 </div>
               </div>
@@ -160,49 +163,58 @@ export default function Page() {
                 <h3 className="text-danger mb-3">Secundaria</h3>
 
                 <p className="texto-nivel">
-                  Etapa clave para el desarrollo del pensamiento crítico, la identidad personal y el compromiso con su entorno.
+                  Etapa determinante donde los estudiantes consolidan un pensamiento analítico sólido, desarrollan disciplina 
+                  académica y fortalecen habilidades esenciales para la vida universitaria y profesional.
                 </p>
 
                 <div className="nivel-seccion">
                   <h5 className="titulo-seccion">Habilidades desarrolladas</h5>
                   <ul>
-                    <li>Pensamiento crítico y análisis de información.</li>
-                    <li>Gestión del tiempo y responsabilidad académica.</li>
-                    <li>Comunicación efectiva oral y escrita.</li>
+                    <li>Dominio del pensamiento crítico y capacidad de argumentación.</li>
+                    <li>Análisis profundo de información y toma de decisiones informada.</li>
+                    <li>Gestión del tiempo, cumplimiento de estándares académicos altos y responsabilidad personal.</li>
+                    <li>Comunicación oral y escrita con precisión y claridad en español e inglés.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
                   <h5 className="titulo-seccion">Áreas académicas</h5>
                   <ul>
-                    <li>Matemáticas, Ciencias (Biología, Física, Química).</li>
-                    <li>Español, Literatura e Historia.</li>
-                    <li>Computación y materias electivas.</li>
+                    <li><strong>Matemáticas avanzadas: </strong>Álgebra, Geometría, Pre-Cálculo y razonamiento cuantitativo.</li>
+                    <li><strong>Ciencias: </strong>Biología, Física y Química impartidas con enfoque teórico-práctico a través de proyectos, demostraciones y análisis de casos.</li>
+                    <li><strong>Español y Literatura: </strong>Comprensión crítica, análisis literario y redacción académica.</li>
+                    <li><strong>Estudios Sociales: </strong>Historia, geografía, ciudadanía y análisis del contexto global.</li>
+                    <li><strong>Tecnología y Computación: </strong>Herramientas digitales, investigación académica y proyectos aplicados.</li>
+                    <li><strong>Electivas formativas: </strong>Áreas de interés que fortalecen habilidades específicas.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
-                  <h5 className="titulo-seccion">Inglés</h5>
+                  <h5 className="titulo-seccion">Inglés (Sistema ABEKA - Nivel Competitivo)</h5>
                   <ul>
-                    <li>Lectura de textos académicos.</li>
-                    <li>Redacción de ensayos cortos.</li>
-                    <li>Presentaciones orales y proyectos en inglés.</li>
+                    <li>Lectura y análisis de textos académicos y argumentativos.</li>
+                    <li>Redacción de ensayos formales, reportes, resúmenes y análisis.</li>
+                    <li>Presentaciones orales estructuradas, debates y participación activa en clase.</li>
+                    <li>Vocabulario avanzado, gramática rigurosa y fluidez conversacional.</li>
+                    <li>Énfasis en pensamiento crítico aplicado en inglés como segunda lengua.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
                   <h5 className="titulo-seccion">Valores cristianos</h5>
                   <ul>
-                    <li>Formación en identidad y propósito en Dios.</li>
-                    <li>Ética, empatía y servicio a los demás.</li>
+                    <li>Identidad y propósito fundamentados en la Palabra de Dios.</li>
+                    <li>Formación ética, carácter, autocontrol, liderazgo y servicio.</li>
+                    <li>Convivencia basada en respeto, integridad y responsabilidad.</li>
                   </ul>
                 </div>
 
                 <div className="nivel-seccion">
                   <h5 className="titulo-seccion">Actividades especiales</h5>
                   <ul>
-                    <li>Proyectos sociales y actividades de servicio.</li>
-                    <li>Eventos académicos y convivencias estudiantiles.</li>
+                    <li>Proyectos integradores de investigación y análisis.</li>
+                    <li>Actividades de servicio comunitario con propósito.</li>
+                    <li>Eventos académicos, devocionales y espacios de formación espiritual.</li>
                   </ul>
                 </div>
               </div>
