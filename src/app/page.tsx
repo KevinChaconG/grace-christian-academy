@@ -143,7 +143,7 @@ export default function Home() {
 
           <div className="col-md-6 text-center">
             <img
-              src="/assets/matricula-2026.png"
+              src="/assets/matricula-2026.PNG"
               alt="Matrícula 2026"
               className="img-fluid rounded shadow" />
           </div>
