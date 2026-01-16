@@ -1,9 +1,16 @@
 "use client";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Oferta Académica",
+  description:
+    "Preescolar, primaria, secundaria y bachillerato en ciencias y letras. Alto nivel de inglés y formación en valores cristianos.",
+  alternates: { canonical: "/oferta-academica" },
+};
 
 export default function Page() {
   return (
     <main className="container py-4">
-
 
       <div className="container fs-4 mb-4">
 

@@ -1,7 +1,15 @@
 "use client";
+import type { Metadata } from "next";
 
 import Testimonios1 from "@/app/Componentes/Testimonios1";
 import Testimonios2 from "@/app/Componentes/Testimonios2";
+
+export const metadata: Metadata = {
+  title: "Testimonios",
+  description:
+    "Conoce experiencias de familias y estudiantes de Grace Christian Academy y por qué nos eligen.",
+  alternates: { canonical: "/testimonios" },
+};
 
 export default function Page() {
   return (

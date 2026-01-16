@@ -1,4 +1,12 @@
 "use client";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contáctanos",
+  description:
+    "Comunícate con Grace Christian Academy para información de matrícula, admisiones y atención por WhatsApp.",
+  alternates: { canonical: "/contactanos" },
+};
 
 export default function Page() {
   return (

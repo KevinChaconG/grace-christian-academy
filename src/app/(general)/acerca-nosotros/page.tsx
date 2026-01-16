@@ -1,4 +1,13 @@
 "use client";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Acerca de Nosotros",
+  description:
+    "Nuestra historia, misión y visión. Grace Christian Academy: excelencia académica, aprendizaje del inglés y valores cristianos.",
+  alternates: { canonical: "/acerca-nosotros" },
+};
 
 export default function Page() {
   return (

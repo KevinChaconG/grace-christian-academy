@@ -2,6 +2,14 @@
 import Image from "next/image";
 import Testimonios1 from "./Componentes/Testimonios1";
 import { useEffect } from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Inicio",
+  description:
+    "Grace Christian Academy: educación bilingüe con valores cristianos.",
+  alternates: { canonical: "/" },
+};
 
 const slides = [
   {

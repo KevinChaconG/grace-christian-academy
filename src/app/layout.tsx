@@ -18,8 +18,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Grace Christian Academy",
-  description: "Educación de excelencia que transforma vidas.",
+  metadataBase: new URL("https://gracechristianacademy-hn.com"),
+  title: {
+    default: "Grace Christian Academy | Educación Bilingüe Cristiana",
+    template: "%s | Grace Christian Academy",
+  },
+  description:
+    "Institución educativa bilingüe con valores cristianos. Preescolar, primaria, secundaria y bachillerato. Ubicados en Honduras.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "es_HN",
+    url: "https://gracechristianacademy-hn.com",
+    siteName: "Grace Christian Academy",
+    title: "Grace Christian Academy | Educación Bilingüe Cristiana",
+    description:
+      "Formación integral con alto dominio del inglés y valores cristianos. Preescolar a bachillerato.",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Grace Christian Academy",
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
