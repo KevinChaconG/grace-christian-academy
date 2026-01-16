@@ -6,6 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import NavBar from "./Componentes/NavBar";
 import BootstrapClient from "./Componentes/bootstrap.client";
 import Footer from "./Componentes/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,7 +58,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LT7064Y0X2"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LT7064Y0X2');
+    `}
+        </Script>
+      </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <BootstrapClient></BootstrapClient>
         <NavBar></NavBar>
@@ -68,3 +84,4 @@ export default function RootLayout({
     </html>
   );
 }
+
