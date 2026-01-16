@@ -1,4 +1,3 @@
-"use client";
 import type { Metadata } from "next";
 
 import Testimonios1 from "@/app/Componentes/Testimonios1";
